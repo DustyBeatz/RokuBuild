@@ -1,4 +1,4 @@
 ------------- Design TODO 
 
 - research the ideal layout for larger media screens and mobile devices
-- experiment with the designs of  layout
+- experiment with the designs of layout
