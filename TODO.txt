@@ -1,4 +1,34 @@
-------------- Design TODO 
+_______________________________TODO RokuFlashBack Project_________________
 
-- research the ideal layout for larger media screens and mobile devices
-- experiment with the designs of layout
+
+                             Developement Roku Asignment
+________________________________________________________
+
+    - For Developement Let's get the AJAX Page Set up to link to a Database
+    - Impliment the Database to the server and see what we need.
+    - Look for ways to filter data based on user age
+    - How to save and add a User. Allow for on click Login
+
+
+
+                                 Design Roku Assignment
+________________________________________________________
+
+    - research the ideal layout for larger media
+     screens and mobile devices
+    - experiment with the designs of layout
+    - Having the loading screen be a flashback intro
+    - Look for ways to implement a custom animation
+    - Hover over Video Tiles has a enlargement feature and an autoplay
+     trailer
+    - See how to have custom Icons for different users
+
+
+                                ToDo From Start to end
+________________________________________________________
+
+    - Layout design complete <
+    - Base html implimented <
+    - Insert Database 
+    - Create Assets for icons, Logo, ColorScheme
+    - Pending.......
