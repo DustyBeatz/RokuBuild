@@ -2,7 +2,7 @@ _______________________________TODO RokuFlashBack Project_________________
 
 
                              Developement Roku Asignment
-________________________________________________________
+___________________________________________________________________________
 
     - For Developement Let's get the AJAX Page Set up to link to a Database
     - Impliment the Database to the server and see what we need.
@@ -12,7 +12,7 @@ ________________________________________________________
 
 
                                  Design Roku Assignment
-________________________________________________________
+__________________________________________________________________________
 
     - research the ideal layout for larger media
      screens and mobile devices
@@ -25,7 +25,7 @@ ________________________________________________________
 
 
                                 ToDo From Start to end
-________________________________________________________
+__________________________________________________________________________
 
     - Layout design complete <
     - Base html implimented <

@@ -1,10 +1,11 @@
 {
-  "name": "RokuBuild",
+  "name": "rokubuild",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "concurrently --kill-others \"nodemon app\"  \"browser-sync start --proxy 'localhost:5050' --files 'chat.html' 'index.html' 'public' \"",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/DustyBeatz/RokuBuild/issues"
   },
-  "homepage": "https://github.com/DustyBeatz/RokuBuild#readme"
+  "homepage": "https://github.com/DustyBeatz/RokuBuild#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  }
 }
