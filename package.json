@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "concurrently --kill-others \"nodemon app\"  \"browser-sync start --proxy 'localhost:5050' --files 'chat.html' 'index.html' 'public' \"",
+    "start-dev": "concurrently --kill-others \"nodemon app\"  \"browser-sync start --proxy 'localhost:5050' --files 'views' 'public' \"",
     "start": "node app"
   },
   "repository": {
