@@ -1,10 +1,10 @@
 {
   "name": "rokubuild",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Roku Streaming Services",
+  "main": "app.js",
   "scripts": {
-    "start-dev": "concurrently --kill-others \"nodemon app\"  \"browser-sync start --proxy 'localhost:5050' --files 'views' 'public' \"",
+    "start-dev": "nodemon app",
     "start": "node app"
   },
   "repository": {
@@ -20,6 +20,8 @@
   "homepage": "https://github.com/DustyBeatz/RokuBuild#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "http-proxy-middleware": "^1.1.0",
     "socket.io": "^3.1.0"
   }
 }

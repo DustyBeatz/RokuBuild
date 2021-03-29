@@ -1,0 +1,80 @@
+.login_section {
+    margin-top:100px ;
+}
+
+#login_logo{ 
+    width: 100%;
+    height: auto;
+    grid-row: 1;
+    
+}
+
+#login_title, #username, #pass,
+#submit, #login_logo  {
+    grid-column: 2/6;
+    margin-top: 15px;
+    padding: 10px;
+    justify-self: center;
+
+}
+
+
+
+#username {
+    grid-row: 2;
+}
+
+#pass {
+    grid-row: 3;
+
+}
+
+#submit{
+    grid-row: 4;
+    @include roundCorners(20px);
+    background-color: #7B4AA0;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.input_login {
+    @include roundCorners(20px);
+    background-color: #7B4AA0;
+    border: none;
+}
+
+#submit, .input_login, select, textarea {
+    color: #A98CBE;
+
+}
+
+
+/* Taken from grepper */
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #A98CBE;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #A98CBE;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #A98CBE;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #A98CBE;
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #A98CBE;
+}
+*::placeholder {
+    /* modern browser */
+    color: #A98CBE;
+}

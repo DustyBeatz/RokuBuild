@@ -1,0 +1,22 @@
+.mainHeader {
+    grid-column: 1/7;
+    grid-row: 1;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: #5A2E7C;
+}
+
+.LogoRoku {
+    grid-column: 1/2;
+    justify-self: center;
+    width: 100px;
+    height: auto;
+}
+
+.kidSec {
+    grid-column: 5/6;
+}
+
+.Search {
+    grid-column: 6/7;
+}

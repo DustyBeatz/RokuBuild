@@ -17,6 +17,21 @@ router.get("/", (req, res)=> {
     
 })
 
+router.get("/kids", (req, res)=> {
+    res.render('kids', {message: "This is the index page"})
+    
+})
+
+router.get("/settings", (req, res)=> {
+    res.render('settings', {message: "This is the index page"})
+    
+})
+
+router.get("/login", (req, res)=> {
+    res.render('login', {message: "This is the index page"})
+    
+})
+
 //other routes you might use
 
 router.use((req, res) =>{

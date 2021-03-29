@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  href="../public/css/main.css" rel="stylesheet">    
+    <link  href="/css/main.css" rel="stylesheet">    
     <title>Roku Login Page</title>
 </head>
 <body>
-<main>  
-      <img src="images/RokuFlashbackLogo.svg" alt="logo">
-    <h4>Login to your RokuFlashback Account</h4>
-    <input id="username" type="text">
-    <input type="password">
-    <input type="submit" value="LOGIN">
+<main id="main">
+    <h1 class="hidden">Login Section</h1>
+      <section class="login_section gridLayout">
+      <img id="login_logo" src="images/RokuFlashbackLogoWhite.svg" alt="logo">
+    <input class="input_login" id="username" type="text" placeholder="Username">
+    <input class="input_login" id="pass" type="password" placeholder="Password">
+    <input id="submit" type="submit" value="LOGIN">
+</section>
 </main>
 </body>
 </html>
